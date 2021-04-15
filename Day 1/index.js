@@ -160,12 +160,13 @@
 
 
 
-const arr=["dsadfewroquiis","oowqhaucuiqwdeha","wqieoiosiahczoa"];
+const arr=["dsadfewroquiis","oowqhaucuiqwdeha","wqieoiosiahcAzoa hajkesdfsdf"];
 const countVowels = str => Array.from(str)
   .filter(letter => 'aeiou'.includes(letter)).length;
   const newArr=[]
   
   arr.forEach(element => {
-      newArr.push( countVowels(element))
+
+      newArr.push( countVowels(element.toLocaleLowerCase()))
   });
   console.log(newArr);
