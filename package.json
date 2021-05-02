@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "./Day7/index.js",
+    "dev":"nodemon ./Day7/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,6 +17,7 @@
     "get-folder-size": "^3.0.0",
     "jshint": "^2.12.0",
     "n-readlines": "^1.0.1",
+    "nodemon": "^2.0.7",
     "path": "^0.12.7"
   }
 }

@@ -29,54 +29,95 @@ router.get('/:id',(req,res)=>{
 });
 
 //add a order
-router.post('/',(req,res)=>{
-//     var products=[];
-// const pro=function addProduct( product){
-//         console.log(products.push(...Array(product.price).fill(req.body.product_name)) );
-//         }
-//     const total=()=>{
-//             return this.products.map(function(product){
-//             return product.Price
-//             })
-//             .reduce(function(a, b){
-//             return a + b;
-//             }, 0);
+// router.post('/',(req,res)=>{
+// //     var products=[];
+// // const pro=function addProduct( product){
+// //         console.log(products.push(...Array(product.price).fill(req.body.product_name)) );
+// //         }
+// //     const total=()=>{
+// //             return this.products.map(function(product){
+// //             return product.Price
+// //             })
+// //             .reduce(function(a, b){
+// //             return a + b;
+// //             }, 0);
+// //             }
+// //     pro({
+// //         product:product.price,
+// //         quantity:req.body.quantity
+// //     })
+// if(!req.body.username===undefined)
+// {
+//     return res.status(400).json({msg:'please include a username '})
+// }
+// else if( !req.body.productname===undefined)
+// {
+//     return res.status(400).json({msg:'please include a  productname'})
+// }
+// else if( !req.body.quantity===undefined)
+// {
+//     return res.status(400).json({msg:'please include a  quantity'})
+// }
+// else
+// {  
+//     const found=products.some(product=>product.name===req.body.productname);
+//     const fou=users.some(user=>user.name===req.body.username)
+//     if(found && fou)
+//     {
+//         const updateproduct=req.body;
+//         products.forEach(product=>{
+//             if(products.name===req.body.productname)
+//             {
+//                 products.quantity=products.quantity-updateproduct.quantity ? products.quantity-updateproduct.quantity:products.quantity;
+//                 // res.json({msg:'Products updated',products})
+//                 console.log('inside middleware prod->',products)
+//                 req.products = products
 //             }
-//     pro({
-//         product:product.price,
-//         quantity:req.body.quantity
-//     })
-if(!req.body.username===undefined)
-{
-    return res.status(400).json({msg:'please include a username '})
-}
-else if( !req.body.productname===undefined)
-{
-    return res.status(400).json({msg:'please include a  productname'})
-}
-else if( !req.body.quantity===undefined)
-{
-    return res.status(400).json({msg:'please include a  quantity'})
-}
-else
-{  
-    const found=products.some(product=>product.name===req.body.productname);
-    const fou=users.some(user=>user.name===req.body.username)
-    if(found && fou)
-    {
-        const updateproduct=req.body;
-        products.forEach(product=>{
-            if(products.name===req.body.productname)
-            {
-                products.quantity=products.quantity-updateproduct.quantity ? products.quantity-updateproduct.quantity:products.quantity;
-                // res.json({msg:'Products updated',products})
-                console.log('inside middleware prod->',products)
-                req.products = products
-            }
         
-        })
-     order.push(updateproduct);
-    }}})
+//         })
+//      order.push(updateproduct);
+//     }}})
+var prodct=[]
+var total=0
+router.post('/',(req,res)=>{
+    if(!req.body.username===undefined && users.name!== req.body.username)
+    {
+        return res.status(400).json({msg:'please include a username '})
+    }
+    else if( !req.body.products===undefined)
+    {
+        return res.status(400).json({msg:'please include a  productname'})
+    }
+    else
+    {  
+        for (const x of req.body.products) {
+            console.log(x)
+            for (const y of products) {
+                if(x.name===y.name){
+                    console.log(y);
+                    total+=y.price*x.quantity;
+                    y.quantity=y.quantity-x.quantity;
+                    prodct.push({id:y.id,prodct_name:y.name,order_quantity:x.quantity})
+                }
+            }
+        }
+
+        const ord={
+            order_id:order.length,
+            user:req.body.username,
+            total:total,
+           order_product:prodct
+        }
+     order.push(ord)
+     res.json({msg:'good',order})
+    }
+    
+    console.log("asd")
+})
+
+
+
+
 
 
 //update order
@@ -120,4 +161,4 @@ router.delete('/:id',(req,res)=>{
     })
 });
 
-module.exports=router;
+ module.exports=router;
