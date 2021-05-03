@@ -88,7 +88,7 @@ router.post('/',(req,res)=>{
     {
         return res.status(400).json({msg:'please include a  productname'})
     }
-    else
+    else 
     {  
         for (const x of req.body.products) {
             console.log(x)

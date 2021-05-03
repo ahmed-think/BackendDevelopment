@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./Day7/index.js",
-    "dev":"nodemon ./Day7/index.js",
+    "start": "./Day8/index.js",
+    "dev": "nodemon ./Day8/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "adm-zip": "^0.5.5",
     "async": "^3.2.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
