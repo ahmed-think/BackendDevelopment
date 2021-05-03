@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "1c07c7a3-c390-4a93-aad9-92e0c844ae4c",
+		"name": "collection 2 header",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "make directory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "email",
+						"value": "ahmed.afridi091",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"names\":[\"ahmed\",\"owasis\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/makedirectory",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"makedirectory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rename directory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "email",
+						"value": "ahmed.afridi091",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"oldname\":\"copy files\",\r\n    \"newname\":\"copy file\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/renamedirectory",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"renamedirectory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "make zip",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "email",
+						"value": "ahmed.afridi091",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"folder\":\"make zip\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/makezip",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"makezip"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "move to specific",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "email",
+						"value": "ahmed.afridi091",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"folder\":\"make zip/\",\r\n    \"filename\":[\"ahmed.txt\"],\r\n    \"newpath\":\"rename/\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/movefile",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movefile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "copy file",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "email",
+						"value": "ahmed.afridi091",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"folder\":\"rename/\",\r\n    \"file\":[\"ahmed.txt\"],\r\n    \"newfolder\":\"Route/\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/copyfile",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"copyfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get a file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"folder\":\"rename\",\r\n    \"file\":\"ahmed.txt\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	]
+}

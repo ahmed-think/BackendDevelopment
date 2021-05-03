@@ -10,15 +10,41 @@ app.use(express.urlencoded({extended: false}));
 
 
 //make directory
-app.use('/make directory',require('./make directory/route'))
+app.use('/makedirectory',require('./make directory/route'))
 
 //rename directory
-app.use('/rename directory',require('./rename/route'))
+app.use('/renamedirectory',require('./rename/route'))
+
+//make  zip of directory
+app.use('/makezip',require('./make zip/route'))
+
+//move a file to spcific folder
+app.use('/movefile',require('./move to spcific/route'))
+
+//copy file 
+app.use('/copyfile',require('./copy file/route'))
 
 
-const AdmZip = require('adm-zip');
-const file = new AdmZip();
-file.addLocalFolder('./make directory','./')
+
+app.post('/',(req,res)=>{
+    fs.readdir(`./${req.body.folder}`, function (err, files) {
+        //handling error
+        if (err) {
+            return console.log('Unable to scan directory: ' + err);
+        } 
+        //listing all files using forEach
+        files.forEach(function (file) {
+           if(file===req.body.file){
+               res.sendFile(file)
+           }
+        });
+    });
+})
+
+
+
+
+
 
 
 

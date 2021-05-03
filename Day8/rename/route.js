@@ -2,8 +2,8 @@ const express=require('express')
 const route=express.Router();
 const middle=require('../Route/middleware')
 
-
-
+const f=require('fs');
+const fs=f;
 
 
 
@@ -15,6 +15,7 @@ route.post('/',middle.midle,(req,res)=>{
           console.log("Successfully renamed the directory.")
         }
       })
+      res.send("done")
 })
 
 
