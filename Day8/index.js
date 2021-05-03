@@ -26,21 +26,6 @@ app.use('/copyfile',require('./copy file/route'))
 
 
 
-app.post('/',(req,res)=>{
-    fs.readdir(`./${req.body.folder}`, function (err, files) {
-        //handling error
-        if (err) {
-            return console.log('Unable to scan directory: ' + err);
-        } 
-        //listing all files using forEach
-        files.forEach(function (file) {
-           if(file===req.body.file){
-               res.sendFile(file)
-           }
-        });
-    });
-})
-
 
 
 

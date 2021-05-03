@@ -8,13 +8,23 @@ const fs=f;
 
 
 route.post('/',(req,res)=>{
-    for (const x of req.body.file) {
-    fs.copyFile(`./${req.body.folder}${x}`, `./${req.body.newfolder}${x}`, (err) => {
-        if (err) throw err;
-        console.log('source.txt was copied to destination.txt');
-      });   
-    }
-      res.send("done")
+    fs.readdir(`./${req.body.folder}`, function (err, files) {
+        //handling error
+        if (err) {
+            return console.log('Unable to scan directory: ' + err);
+        } 
+        //listing all files using forEach
+        files.forEach(function (file) {
+           if(file===req.body.file){
+               res.download(file)
+           }
+        });
+    });
 })
+
+route.post('/download', function(req, res){
+  const file = `./${req.body.folder}${req.body.filename}`;
+  res.sendfile(file); // Set disposition and send it.
+});
 
 module.exports=route;

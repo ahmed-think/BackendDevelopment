@@ -174,10 +174,16 @@
 			"name": "get a file",
 			"request": {
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "email",
+						"value": "ahmed.afridi091",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"folder\":\"rename\",\r\n    \"file\":\"ahmed.txt\"\r\n}",
+					"raw": "{\r\n    \"folder\":\"rename/\",\r\n    \"filename\":\"route.js\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -185,11 +191,15 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:3000",
+					"raw": "localhost:3000/copyfile/download",
 					"host": [
 						"localhost"
 					],
-					"port": "3000"
+					"port": "3000",
+					"path": [
+						"copyfile",
+						"download"
+					]
 				}
 			},
 			"response": []
