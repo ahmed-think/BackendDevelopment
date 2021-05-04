@@ -27,10 +27,4 @@ app.use('/copyfile',require('./copy file/route'))
 
 
 
-
-
-
-
-
-
 app.listen(3000,()=>console.log("listen"))

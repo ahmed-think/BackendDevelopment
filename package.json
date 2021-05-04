@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./Day8/index.js",
-    "dev": "nodemon ./Day8/index.js",
+    "start": "./Day9/index.js",
+    "dev": "nodemon ./Day9/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,11 +15,14 @@
     "archiver": "^5.3.0",
     "async": "^3.2.0",
     "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
     "express": "^4.17.1",
     "get-folder-size": "^3.0.0",
     "jshint": "^2.12.0",
     "n-readlines": "^1.0.1",
+    "nodemailer": "^6.6.0",
     "nodemon": "^2.0.7",
+    "otp-generator": "^2.0.0",
     "path": "^0.12.7"
   }
 }
