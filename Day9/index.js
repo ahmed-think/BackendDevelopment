@@ -11,12 +11,12 @@ app.use(express.urlencoded({extended: false}));
 
 
 
-
+//signup user
 app.use('/signup',require('./user/route'))
-
+//verifyotp
 app.use('/verifyotp',require('./verify otp/route'))
-
- 
+//admin route
+app.use('/admin',require('./adminn/route'))
 
 // var crypto = require('crypto'); 
 

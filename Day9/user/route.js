@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 const otpGenerator = require('otp-generator')
 
 var users=[];
-var usern=[];
+var user=[];
 const encrypt=function(pass){
     var mykey = crypto.createCipher('aes-128-cbc', 'mypassword');
     var mystr = mykey.update(`${pass}`, 'utf8', 'hex')
@@ -22,19 +22,40 @@ const encrypt=function(pass){
         }
       });
       const otp=otpGenerator.generate(6, { upperCase: false, specialChars: false })
-     
-
+     var unblock=[]
+     var block=[]
+    
 
 
 route.post('/',(req,res)=>{
     const pass=req.body.pasword
-    const signup={
-id:users.length+1,
-username:req.body.name,
-useremail:req.body.email,
-pasword:encrypt(pass),
-authurization:false
-    }
+    if(users.length==0){
+      const signup={
+      id:users.length+1,
+      username:req.body.name,
+      useremail:req.body.email,
+      pasword:encrypt(pass),
+      authurization:false,
+      status:"unblock"
+          }
+          users.push(signup)}else{
+    users.forEach(ele=>{
+      if(ele.useremail===req.body.email){
+        res.send("email exist")
+      }else{
+        const signup={
+          id:users.length+1,
+          username:req.body.name,
+          useremail:req.body.email,
+          pasword:encrypt(pass),
+          authurization:false,
+          status:"ublock"
+              }
+              users.push(signup)
+      }
+    })}
+    
+   
 const a={
  email:req.body.email,
  reqotp:otp
@@ -55,16 +76,23 @@ console.log(otp);
       });
 
 
-usern.push(a)
-users.push(signup)
+      users.forEach(e=>{
+        if(e.status==="unblock"){
+          unblock.push(e);
+        }else if(e.status==="block"){
+          block.push(e)
+        }
+      })
+
+
+user.push(a)
 res.send(users);
 })
 
 
-route.get('/',(req,res)=>{
-res.send(usernds)
-})
 
+module.exports=route;
 module.exports.users=users;
-module.exports.userv=usern;
- module.exports=route;
+module.exports.block=block;
+module.exports.user=user;
+module.exports.unblock=unblock;
