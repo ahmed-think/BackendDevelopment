@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "255cc3bf-77dc-434e-8e9b-00365cedb8c2",
+		"name": "collection 3 signup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Ahmed\",\r\n    \"email\":\"ahmed.afridi091@gmail.com\",\r\n    \"pasword\":\"ahmed123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/signup",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/verifyotp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"Ahmed.afridi091@gmail.com\",\r\n    \"otp\":\"rceiix\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/verifyotp",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"verifyotp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/admin/Allusers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"Allusers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get bloked users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/admin/block",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get unblocked users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/admin/unblock",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"unblock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "block or unblock a user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ahmed.afridi091@gmail.com\",\r\n    \"action\":\"block\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/admin/action",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"admin",
+						"action"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
