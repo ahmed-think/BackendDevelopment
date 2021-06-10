@@ -8,8 +8,10 @@ const course=new mongoose.Schema({
     courseDiscription:String,
     courseduration:Number,
     pre_requisite:String,
+    courseprice:Float,
     courselecture:[Schema.Type.Mixed]
 })
 
 
 
+module.exports=mongoose.model("course",course)

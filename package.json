@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./Day9/index.js",
-    "dev": "nodemon ./Day9/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon  index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "adm-zip": "^0.5.5",
     "archiver": "^5.3.0",
+    "ascii-horizontal-barchart": "^1.3.3",
     "async": "^3.2.0",
     "body-parser": "^1.19.0",
+    "chart.js": "^3.3.2",
+    "chartjs-to-image": "^1.0.4",
     "crypto": "^1.0.1",
     "express": "^4.17.1",
     "get-folder-size": "^3.0.0",
@@ -25,6 +26,7 @@
     "nodemailer": "^6.6.0",
     "nodemon": "^2.0.7",
     "otp-generator": "^2.0.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "two-step-auth": "^1.1.2"
   }
 }

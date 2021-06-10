@@ -121,20 +121,25 @@ router.post('/',(req,res)=>{
 
 
 //update order
-router.put('/:id',(req,res)=>{
+router.put('/:id',(req,res)=>
+{
     const found=order.some(order=>order.id===parseInt(req.params.id));
 
-    if(found){
+    if(found)
+    {
        const update = req.body;
-       order.forEach(order=>{
-           if(order.id===parseInt(req.params.id)){
-                 order.username=update.username ? update.username : order.username;
-                 order.price=update.price ? update.price : order.price;
-                 order.quantity=update.quantity ? update.quantity : order.quantity;
-res.json({msg:`order updated`,order: order})
-                }
-       })
-    } else{
+       order.forEach(order=>
+        {
+           if(order.id===parseInt(req.params.id))
+           {
+                order.username=update.username ? update.username : order.username;
+                order.price=update.price ? update.price : order.price;
+                order.quantity=update.quantity ? update.quantity : order.quantity;
+                res.json({msg:`order updated`,order: order})
+            }
+        })
+    } else
+    {
         res.status(400).json({msg:`no order found with id ${req.params.id} `})
 
     }
