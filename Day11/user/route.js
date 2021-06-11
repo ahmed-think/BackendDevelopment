@@ -3,7 +3,8 @@ const route=express.Router();
 const  crypto = require('crypto');
 const nodemailer = require('nodemailer');
 const otpGenerator = require('otp-generator')
-const usar=require('../schema/user')
+const usar=require('../schema/user');
+const { send } = require('process');
 var users=[];
 var user=[];
 const encrypt=function(pass){
@@ -136,8 +137,21 @@ if(err){
 })
 
 
+route.post('/buy',(req,res)=>{
+  let data=req.body
+  usar.findByIdAndUpdate(data.id,{$push:{mycourses:data.courseid}},(err,doc)=>{
+    if(err) console.log(err);
+    else res.send(doc);
+  })
+})
 
 
+route.get('/mycourses',(req,res)=>{
+  usar.findById(req.body.id).populate('mycourses',).exec((err,doc)=>{
+    if(err) console.log(err);
+    else res.send(doc);
+  })
+})
 
 
 module.exports=route;

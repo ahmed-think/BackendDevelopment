@@ -32,7 +32,7 @@ app.use('/verifyotp',require('./verify otp/route'))
 app.use('/admin',require('./adminn/route'))
 
 // var crypto = require('crypto'); 
-
+app.use('/',require('./courses/route'))
 
 app.listen(3000,()=>console.log("listen"))
 

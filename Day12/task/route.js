@@ -19,7 +19,7 @@ a();
  var f;
  async function s(){
     f= await tasks.find({},(error,faa)=>{
-      if (error){ console.log(err);}
+      if (error){ console.log(error);}
       else {console.log(faa);
      }
  }).countDocuments()}

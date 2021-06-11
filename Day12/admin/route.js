@@ -58,7 +58,7 @@ function page(model){
 }
 
 var pass
-route.get('/last7days',page(tasks),(req,res)=>{
+route.get('/last7days',async(req,res)=>{
     
     // async function s(){
     //     pass=await tasks.find({}).sort({date: -1}).limit(7).exec((err, docs) => { 
@@ -68,7 +68,17 @@ route.get('/last7days',page(tasks),(req,res)=>{
     //   console.log(pass);
 // }
 //       s()
-res.send(res.page)
+var d = new Date();
+d.setDate(d.getDate() - 7);
+console.log(d.toString());
+var e = new Date();
+e.setDate(e.getDate());
+console.log(e.toString());
+const f= await tasks.aggregate ({$match:{date:{$lte:e,$gte:d}}})
+
+console.log(f);
+
+res.send(res.f)
 })
 route.get('/total',(req,res)=>{
     let pass

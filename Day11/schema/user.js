@@ -9,7 +9,7 @@ const user_schema= mongoose.Schema({
     verification:String,
     status:String,
     isloggedin:String,
-    mycourses:[String]
+    mycourses:[ {type:mongoose.Schema.Types.ObjectId,ref:'course'}]
 })
 
 module.exports=mongoose.model("usar",user_schema)
