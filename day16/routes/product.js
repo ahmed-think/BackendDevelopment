@@ -19,23 +19,16 @@ route.post('/addproduct', upload.single('image'), (req, res) => {
         CategoryId:req.body.catid,
 
     }
-    console.log('product->',data)
     products.create(data, (err, doc) => {
         if (err) console.log(err);
         else {
-            console.log('document->',doc)
             category.findByIdAndUpdate(req.body.catid,{$push:{product:doc._id}},{new:true} ).exec((error,categoryData)=>{
                 if(error) console.log(error);
                 else {
                     brand.findByIdAndUpdate(req.body.bid,{$push:{product:doc._id}},{new:true}).exec((errr,brandData)=>{
                         if(errr) console.log(errr);
                         else {
-                            let response = {
-                                doc,
-                                brandData,
-                                categoryData
-                            }
-                            res.json({response})
+                         res.json({response})
                         }
                     })
                 }
@@ -63,12 +56,44 @@ route.post('/update',(req,res)=>{
 
 
 
-route.get('/', (req, res) => {
+route.get('/showenable', (req, res) => {
     products.find({ status: true }).exec((err, doc) => {
         if (err) console.log(err);
         else res.send(doc)
     })
 })
 
+route.get('/showdisable', (req, res) => {
+    products.find({ status: false }).exec((err, doc) => {
+        if (err) console.log(err);
+        else res.send(doc)
+    })
+})
 
+
+route.post('/filter',(req,res)=>{
+ brand.find().exec((erer,dooc)=>{
+    if(erer) console.log(erer);
+    else 
+{
+
+    products.find({$or:[req.body,{brandname:dooc._id}]})
+    .populate('brandname',"name Picture product")
+    .populate('CategoryId',"name  categoryimage")
+    .exec((err,doc)=>{
+        if(err) console.log(err);
+        else res.send(doc)
+    })
+ }})
+    })
+
+route.post('/productsearch',(req,res)=>{
+    products.find(req.body)
+    .populate('brandname',"name Picture product")
+    .populate('CategoryId',"name  categoryimage")
+    .exec((err,doc)=>{
+        if(err) console.log(err);
+        else res.send(doc)
+    })
+})
 module.exports = route

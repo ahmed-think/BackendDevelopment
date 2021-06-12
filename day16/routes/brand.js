@@ -27,10 +27,30 @@ route.post('/disable',async(req,res)=>
 });
 
 
-route.get('/',(req,res)=>{
+route.get('/showenable',(req,res)=>{
     brand.find({status:true}).exec((err,doc)=>{
         if(err) console.log(err);
         else res.send(doc)
+    })
+})
+route.get('/showdisable',(req,res)=>{
+    brand.find({status:false}).exec((err,doc)=>{
+        if(err) console.log(err);
+        else res.send(doc)
+    })
+})
+
+route.post('/brandshow',(req,res)=>{
+    brand.find({name:req.body.name}).exec((err,doc)=>{
+        if(err) console.log(err);
+        else {
+            brand.findById({brandname:doc._id},"name description producttype price dose Picture CategoryId ")
+            .populate('CategoryId',"name  categoryimage")
+            .exec((err,doc)=>{
+                if(err) console.log(err);
+                else res.send(doc);
+            })
+        }
     })
 })
 
