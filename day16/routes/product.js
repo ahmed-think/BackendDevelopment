@@ -72,28 +72,33 @@ route.get('/showdisable', (req, res) => {
 
 
 route.post('/filter',(req,res)=>{
- brand.find().exec((erer,dooc)=>{
-    if(erer) console.log(erer);
-    else 
-{
-
-    products.find({$or:[req.body,{brandname:dooc._id}]})
+    products.find({$or:[req.body,{brandname:req.body.brandid}]})
     .populate('brandname',"name Picture product")
     .populate('CategoryId',"name  categoryimage")
     .exec((err,doc)=>{
         if(err) console.log(err);
         else res.send(doc)
     })
- }})
     })
 
 route.post('/productsearch',(req,res)=>{
+    if(req.body.hasOwnProperty('cost')){
     products.find(req.body)
-    .populate('brandname',"name Picture product")
-    .populate('CategoryId',"name  categoryimage")
+    .populate('brandname',"name")
+    .populate('CategoryId',"name")
+    .sort({price:req.body.cost})
+    .exec((err,doc)=>{
+        if(err) console.log(err);
+        else res.send(doc)
+    })}else{
+         products.find(req.body)
+    .populate('brandname',"name ")
+    .populate('CategoryId',"name ")
+    .sort({sold:-1})
     .exec((err,doc)=>{
         if(err) console.log(err);
         else res.send(doc)
     })
+    }
 })
 module.exports = route
