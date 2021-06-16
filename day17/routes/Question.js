@@ -1,17 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const capabilities = require('../schema/Capability')
+const questions = require('../schema/Questions')
 const strands = require('../schema/strands')
 router.post('/addcapability', (req, res) => {
     let data = {
-        name: req.body.name,
-        remarks:req.body.remarks,
+        text: req.body.text,
         strand:req.body.strandid
     }
-    capabilities.create(data, (err, doc) => {
+    questions.create(data, (err, doc) => {
         if (err) console.log(err);
         else {
-            strands.findByIdAndUpdate(req.body.strandid, { $push: { capabilities: doc._id } }).exec((er, dc) => {
+            strands.findByIdAndUpdate(req.body.strandid, { $push: { question: doc._id } }).exec((er, dc) => {
                 if (er) console.log(er);
                 else res.send(doc)
             })
@@ -20,8 +19,8 @@ router.post('/addcapability', (req, res) => {
     })
 })
 
-router.post('/disablecapability', async (req, res) => {
-    capabilities.findByIdAndUpdate(req.body.id, { enabled: req.body.enabled }, { new: true }).exec((err, doc) => {
+router.post('/disablequestion', async (req, res) => {
+    questions.findByIdAndUpdate(req.body.id, { enabled: req.body.enabled }, { new: true }).exec((err, doc) => {
         if (err) console.log(err);
         else {
             res.send(doc);
@@ -31,14 +30,14 @@ router.post('/disablecapability', async (req, res) => {
 
 
 router.get('/showenable', (req, res) => {
-    capabilities.find({ enabled: true }).exec((err, doc) => {
+    questions.find({ enabled: true }).exec((err, doc) => {
         if (err) console.log(err);
         else res.send(doc)
     })
 })
 
-router.post('/capabilityshow', (req, res) => {
-    capabilities.find().exec((err, doc) => {
+router.post('/questionshow', (req, res) => {
+    questions.find().exec((err, doc) => {
         if (err) console.log(err);
         else {
             res.send(doc)

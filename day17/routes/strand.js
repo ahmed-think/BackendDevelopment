@@ -21,7 +21,7 @@ router.post('/addstrand', (req, res) => {
 })
 
 router.post('/disable', async (req, res) => {
-    strands.findByIdAndUpdate(req.body.id, { status: req.body.status }, { new: true }).exec((err, doc) => {
+    strands.findByIdAndUpdate(req.body.id, { enabled: req.body.enabled }, { new: true }).exec((err, doc) => {
         if (err) console.log(err);
         else {
             res.send(doc);
@@ -31,13 +31,13 @@ router.post('/disable', async (req, res) => {
 
 
 router.get('/showenable', (req, res) => {
-    strands.find({ status: true }).exec((err, doc) => {
+    strands.find({ enabled: true }).exec((err, doc) => {
         if (err) console.log(err);
         else res.send(doc)
     })
 })
 router.get('/showdisable', (req, res) => {
-    strands.find({ status: false }).exec((err, doc) => {
+    strands.find({ enabled: false }).exec((err, doc) => {
         if (err) console.log(err);
         else res.send(doc)
     })
