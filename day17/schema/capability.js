@@ -6,6 +6,8 @@ const capabilitySchema = new mongoose.Schema({
         [{
             text: String,
             level: { type: Number, required: true, min: 1, max: 5 }
-        }]
+        }],
+    strand: { type: mongoose.Schema.Types.ObjectId, ref: 'strands' },
+
 })
 module.export = mongoose.model('capabilities', capabilitySchema)
