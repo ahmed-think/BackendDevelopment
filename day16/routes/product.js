@@ -82,23 +82,11 @@ route.post('/filter',(req,res)=>{
     })
 
 route.post('/productsearch',(req,res)=>{
-    if(req.body.hasOwnProperty('cost')){
-    products.find(req.body)
-    .populate('brandname',"name")
-    .populate('CategoryId',"name")
-    .sort({price:req.body.cost})
-    .exec((err,doc)=>{
-        if(err) console.log(err);
-        else res.send(doc)
-    })}else{
-         products.find(req.body)
-    .populate('brandname',"name ")
-    .populate('CategoryId',"name ")
-    .sort({sold:-1})
-    .exec((err,doc)=>{
-        if(err) console.log(err);
-        else res.send(doc)
-    })
-    }
+    products.findOne({ "name" : { $regex: /Ghost/, $options: 'i' } },
+          function (err, doc) {
+                 if (err) return handleError(err);
+                 console.log('%s %s is a %s.', doc);
+
+   });
 })
 module.exports = route
