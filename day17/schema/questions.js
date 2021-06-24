@@ -4,4 +4,4 @@ const questionSchema = new mongoose.Schema({
     strand: { type: mongoose.Schema.Types.ObjectId, ref: 'strands' },
     enabled: { type: Boolean, default: true }
 })
-module.export = mongoose.model('questions', questionSchema)
+module.exports = mongoose.model('questions', questionSchema)

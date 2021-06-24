@@ -15,3 +15,23 @@ route.post('/status',(req,res)=>{
 const date=new Date()
 
 module.exports=route
+
+
+
+
+app.get('/api/getFile:path', (req, res) => {
+    try {
+        var file = __dirname + '/../techfinderfiles/' + req.params.path;
+
+        var filename = path.basename(file);
+        var mimetype = mime.getType(file);
+
+        res.setHeader('Content-disposition', 'attachment; filename=' + filename);
+        res.setHeader('Content-type', mimetype);
+
+        var filestream = fs.createReadStream(file);
+        filestream.pipe(res);
+    } catch (error) {
+        return res.json(handleErr(error))
+    }
+})

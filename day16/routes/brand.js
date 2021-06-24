@@ -28,7 +28,8 @@ route.post('/disable',async(req,res)=>
 
 
 route.get('/showenable',(req,res)=>{
-    brand.find({status:true}).exec((err,doc)=>{
+    brand.find({status:true})
+    .exec((err,doc)=>{
         if(err) console.log(err);
         else res.send(doc)
     })
