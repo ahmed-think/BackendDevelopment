@@ -2,1136 +2,1136 @@
     {
         "country": "Afghanistan",
         "continent": "Asia",
-        "flag": "Afghanistan.svg"
+        "flag": "./image/Afghanistan.svg"
     },
     {
         "country": "Albania",
         "continent": "Europe",
-        "flag": "Albania.svg"
+        "flag": "./image/Albania.svg"
     },
     {
         "country": "Algeria",
         "continent": "Africa",
-        "flag": "Algeria.svg"
+        "flag": "./image/Algeria.svg"
     },
     {
         "country": "American Samoa",
         "continent": "Oceania",
-        "flag": "American Samoa.svg"
+        "flag": "./image/American Samoa.svg"
     },
     {
         "country": "Andorra",
         "continent": "Europe",
-        "flag": "Andorra.svg"
+        "flag": "./image/Andorra.svg"
     },
     {
         "country": "Angola",
         "continent": "Africa",
-        "flag": "Angola.svg"
+        "flag": "./image/Angola.svg"
     },
     {
         "country": "Anguilla",
         "continent": "North America",
-        "flag": "Anguilla.svg"
+        "flag": "./image/Anguilla.svg"
     },
     {
         "country": "Antigua and Barbuda",
         "continent": "North America",
-        "flag": "Antigua and Barbuda.svg"
+        "flag": "./image/Antigua and Barbuda.svg"
     },
     {
         "country": "Argentina",
         "continent": "South America",
-        "flag": "Argentina.svg"
+        "flag": "./image/Argentina.svg"
     },
     {
         "country": "Armenia",
         "continent": "Asia",
-        "flag": "Armenia.svg"
+        "flag": "./image/Armenia.svg"
     },
     {
         "country": "Aruba",
         "continent": "North America",
-        "flag": "Aruba.svg"
+        "flag": "./image/Aruba.svg"
     },
     {
         "country": "Australia",
         "continent": "Oceania",
-        "flag": "Australia.svg"
+        "flag": "./image/Australia.svg"
     },
     {
         "country": "Austria",
         "continent": "Europe",
-        "flag": "Austria.svg"
+        "flag": "./image/Austria.svg"
     },
     {
         "country": "Azerbaijan",
         "continent": "Asia",
-        "flag": "Azerbaijan.svg"
+        "flag": "./image/Azerbaijan.svg"
     },
     {
         "country": "Bahamas",
         "continent": "North America",
-        "flag": "Bahamas.svg"
+        "flag": "./image/Bahamas.svg"
     },
     {
         "country": "Bahrain",
         "continent": "Asia",
-        "flag": "Bahrain.svg"
+        "flag": "./image/Bahrain.svg"
     },
     {
         "country": "Bangladesh",
         "continent": "Asia",
-        "flag": "Bangladesh.svg"
+        "flag": "./image/Bangladesh.svg"
     },
     {
         "country": "Barbados",
         "continent": "North America",
-        "flag": "Barbados.svg"
+        "flag": "./image/Barbados.svg"
     },
     {
         "country": "Belarus",
         "continent": "Europe",
-        "flag": "Belarus.svg"
+        "flag": "./image/Belarus.svg"
     },
     {
         "country": "Belgium",
         "continent": "Europe",
-        "flag": "Belgium.svg"
+        "flag": "./image/Belgium.svg"
     },
     {
         "country": "Belize",
         "continent": "North America",
-        "flag": "Belize.svg"
+        "flag": "./image/Belize.svg"
     },
     {
         "country": "Benin",
         "continent": "Africa",
-        "flag": "Benin.svg"
+        "flag": "./image/Benin.svg"
     },
     {
         "country": "Bermuda",
         "continent": "North America",
-        "flag": "Bermuda.svg"
+        "flag": "./image/Bermuda.svg"
     },
     {
         "country": "Bhutan",
         "continent": "Asia",
-        "flag": "Bhutan.svg"
+        "flag": "./image/Bhutan.svg"
     },
     {
         "country": "Bolivia",
         "continent": "South America",
-        "flag": "Bolivia.svg"
+        "flag": "./image/Bolivia.svg"
     },
     {
         "country": "Bosnia and Herzegovina",
         "continent": "Europe",
-        "flag": "Bosnia and Herzegovina.svg"
+        "flag": "./image/Bosnia and Herzegovina.svg"
     },
     {
         "country": "Botswana",
         "continent": "Africa",
-        "flag": "Botswana.svg"
+        "flag": "./image/Botswana.svg"
     },
     {
         "country": "Bouvet Island",
         "continent": "Antarctica",
-        "flag": "Bouvet Island.svg"
+        "flag": "./image/Bouvet Island.svg"
     },
     {
         "country": "Brazil",
         "continent": "South America",
-        "flag": "Brazil.svg"
+        "flag": "./image/Brazil.svg"
     },
     {
         "country": "British Indian Ocean Territory",
         "continent": "Africa",
-        "flag": "British Indian Ocean Territory.svg"
+        "flag": "./image/British Indian Ocean Territory.svg"
     },
     {
         "country": "Brunei",
         "continent": "Asia",
-        "flag": "Brunei.svg"
+        "flag": "./image/Brunei.svg"
     },
     {
         "country": "Bulgaria",
         "continent": "Europe",
-        "flag": "Bulgaria.svg"
+        "flag": "./image/Bulgaria.svg"
     },
     {
         "country": "Burkina Faso",
         "continent": "Africa",
-        "flag": "Burkina Faso.svg"
+        "flag": "./image/Burkina Faso.svg"
     },
     {
         "country": "Burundi",
         "continent": "Africa",
-        "flag": "Burundi.svg"
+        "flag": "./image/Burundi.svg"
     },
     {
         "country": "Cambodia",
         "continent": "Asia",
-        "flag": "Cambodia.svg"
+        "flag": "./image/Cambodia.svg"
     },
     {
         "country": "Cameroon",
         "continent": "Africa",
-        "flag": "Cameroon.svg"
+        "flag": "./image/Cameroon.svg"
     },
     {
         "country": "Canada",
         "continent": "North America",
-        "flag": "Canada.svg"
+        "flag": "./image/Canada.svg"
     },
     {
         "country": "Cape Verde",
         "continent": "Africa",
-        "flag": "Cape Verde.svg"
+        "flag": "./image/Cape Verde.svg"
     },
     {
         "country": "Cayman Islands",
         "continent": "North America",
-        "flag": "Cayman Islands.svg"
+        "flag": "./image/Cayman Islands.svg"
     },
     {
         "country": "Central African Republic",
         "continent": "Africa",
-        "flag": "Central African Republic.svg"
+        "flag": "./image/Central African Republic.svg"
     },
     {
         "country": "Chad",
         "continent": "Africa",
-        "flag": "Chad.svg"
+        "flag": "./image/Chad.svg"
     },
     {
         "country": "Chile",
         "continent": "South America",
-        "flag": "Chile.svg"
+        "flag": "./image/Chile.svg"
     },
     {
         "country": "China",
         "continent": "Asia",
-        "flag": "China.svg"
+        "flag": "./image/China.svg"
     },
     {
         "country": "Christmas Island",
         "continent": "Oceania",
-        "flag": "Christmas Island.svg"
+        "flag": "./image/Christmas Island.svg"
     },
     {
         "country": "Colombia",
         "continent": "South America",
-        "flag": "Colombia.svg"
+        "flag": "./image/Colombia.svg"
     },
     {
         "country": "Comoros",
         "continent": "Africa",
-        "flag": "Comoros.svg"
+        "flag": "./image/Comoros.svg"
     },
     {
         "country": "Congo",
         "continent": "Africa",
-        "flag": "Congo.svg"
+        "flag": "./image/Congo.svg"
     },
     {
         "country": "Cook Islands",
         "continent": "Oceania",
-        "flag": "Cook Islands.svg"
+        "flag": "./image/Cook Islands.svg"
     },
     {
         "country": "Costa Rica",
         "continent": "North America",
-        "flag": "Costa Rica.svg"
+        "flag": "./image/Costa Rica.svg"
     },
     {
         "country": "Croatia",
         "continent": "Europe",
-        "flag": "Croatia.svg"
+        "flag": "./image/Croatia.svg"
     },
     {
         "country": "Cuba",
         "continent": "North America",
-        "flag": "Cuba.svg"
+        "flag": "./image/Cuba.svg"
     },
     {
         "country": "Cyprus",
         "continent": "Asia",
-        "flag": "Cyprus.svg"
+        "flag": "./image/Cyprus.svg"
     },
     {
         "country": "Czech Republic",
         "continent": "Europe",
-        "flag": "Czech Republic.svg"
+        "flag": "./image/Czech Republic.svg"
     },
     {
         "country": "Denmark",
         "continent": "Europe",
-        "flag": "Denmark.svg"
+        "flag": "./image/Denmark.svg"
     },
     {
         "country": "Djibouti",
         "continent": "Africa",
-        "flag": "Djibouti.svg"
+        "flag": "./image/Djibouti.svg"
     },
     {
         "country": "Dominica",
         "continent": "North America",
-        "flag": "Dominica.svg"
+        "flag": "./image/Dominica.svg"
     },
     {
         "country": "Dominican Republic",
         "continent": "North America",
-        "flag": "Dominican Republic.svg"
+        "flag": "./image/Dominican Republic.svg"
     },
     {
         "country": "East Timor",
         "continent": "Asia",
-        "flag": "East Timor.svg"
+        "flag": "./image/East Timor.svg"
     },
     {
         "country": "Ecuador",
         "continent": "South America",
-        "flag": "Ecuador.svg"
+        "flag": "./image/Ecuador.svg"
     },
     {
         "country": "Egypt",
         "continent": "Africa",
-        "flag": "Egypt.svg"
+        "flag": "./image/Egypt.svg"
     },
     {
         "country": "El Salvador",
         "continent": "North America",
-        "flag": "El Salvador.svg"
+        "flag": "./image/El Salvador.svg"
     },
     {
         "country": "England",
         "continent": "Europe",
-        "flag": "England.svg"
+        "flag": "./image/England.svg"
     },
     {
         "country": "Equatorial Guinea",
         "continent": "Africa",
-        "flag": "Equatorial Guinea.svg"
+        "flag": "./image/Equatorial Guinea.svg"
     },
     {
         "country": "Eritrea",
         "continent": "Africa",
-        "flag": "Eritrea.svg"
+        "flag": "./image/Eritrea.svg"
     },
     {
         "country": "Estonia",
         "continent": "Europe",
-        "flag": "Estonia.svg"
+        "flag": "./image/Estonia.svg"
     },
     {
         "country": "Ethiopia",
         "continent": "Africa",
-        "flag": "Ethiopia.svg"
+        "flag": "./image/Ethiopia.svg"
     },
     {
         "country": "Falkland Islands",
         "continent": "South America",
-        "flag": "Falkland Islands.svg"
+        "flag": "./image/Falkland Islands.svg"
     },
     {
         "country": "Faroe Islands",
         "continent": "Europe",
-        "flag": "Faroe Islands.svg"
+        "flag": "./image/Faroe Islands.svg"
     },
     {
         "country": "Finland",
         "continent": "Europe",
-        "flag": "Finland.svg"
+        "flag": "./image/Finland.svg"
     },
     {
         "country": "France",
         "continent": "Europe",
-        "flag": "France.svg"
+        "flag": "./image/France.svg"
     },
     {
         "country": "French Guiana",
         "continent": "South America",
-        "flag": "French Guiana.svg"
+        "flag": "./image/French Guiana.svg"
     },
     {
         "country": "French Polynesia",
         "continent": "Oceania",
-        "flag": "French Polynesia.svg"
+        "flag": "./image/French Polynesia.svg"
     },
     {
         "country": "Gabon",
         "continent": "Africa",
-        "flag": "Gabon.svg"
+        "flag": "./image/Gabon.svg"
     },
     {
         "country": "Gambia",
         "continent": "Africa",
-        "flag": "Gambia.svg"
+        "flag": "./image/Gambia.svg"
     },
     {
         "country": "Georgia",
         "continent": "Asia",
-        "flag": "Georgia.svg"
+        "flag": "./image/Georgia.svg"
     },
     {
         "country": "Germany",
         "continent": "Europe",
-        "flag": "Germany.svg"
+        "flag": "./image/Germany.svg"
     },
     {
         "country": "Ghana",
         "continent": "Africa",
-        "flag": "Ghana.svg"
+        "flag": "./image/Ghana.svg"
     },
     {
         "country": "Gibraltar",
         "continent": "Europe",
-        "flag": "Gibraltar.svg"
+        "flag": "./image/Gibraltar.svg"
     },
     {
         "country": "Greece",
         "continent": "Europe",
-        "flag": "Greece.svg"
+        "flag": "./image/Greece.svg"
     },
     {
         "country": "Greenland",
         "continent": "North America",
-        "flag": "Greenland.svg"
+        "flag": "./image/Greenland.svg"
     },
     {
         "country": "Grenada",
         "continent": "North America",
-        "flag": "Grenada.svg"
+        "flag": "./image/Grenada.svg"
     },
     {
         "country": "Guadeloupe",
         "continent": "North America",
-        "flag": "Guadeloupe.svg"
+        "flag": "./image/Guadeloupe.svg"
     },
     {
         "country": "Guam",
         "continent": "Oceania",
-        "flag": "Guam.svg"
+        "flag": "./image/Guam.svg"
     },
     {
         "country": "Guatemala",
         "continent": "North America",
-        "flag": "Guatemala.svg"
+        "flag": "./image/Guatemala.svg"
     },
     {
         "country": "Guinea",
         "continent": "Africa",
-        "flag": "Guinea.svg"
+        "flag": "./image/Guinea.svg"
     },
     {
         "country": "Guinea-Bissau",
         "continent": "Africa",
-        "flag": "Guinea-Bissau.svg"
+        "flag": "./image/Guinea-Bissau.svg"
     },
     {
         "country": "Guyana",
         "continent": "South America",
-        "flag": "Guyana.svg"
+        "flag": "./image/Guyana.svg"
     },
     {
         "country": "Haiti",
         "continent": "North America",
-        "flag": "Haiti.svg"
+        "flag": "./image/Haiti.svg"
     },
     {
         "country": "Honduras",
         "continent": "North America",
-        "flag": "Honduras.svg"
+        "flag": "./image/Honduras.svg"
     },
     {
         "country": "Hong Kong",
         "continent": "Asia",
-        "flag": "Hong Kong.svg"
+        "flag": "./image/Hong Kong.svg"
     },
     {
         "country": "Hungary",
         "continent": "Europe",
-        "flag": "Hungary.svg"
+        "flag": "./image/Hungary.svg"
     },
     {
         "country": "Iceland",
         "continent": "Europe",
-        "flag": "Iceland.svg"
+        "flag": "./image/Iceland.svg"
     },
     {
         "country": "India",
         "continent": "Asia",
-        "flag": "India.svg"
+        "flag": "./image/India.svg"
     },
     {
         "country": "Indonesia",
         "continent": "Asia",
-        "flag": "Indonesia.svg"
+        "flag": "./image/Indonesia.svg"
     },
     {
         "country": "Iran",
         "continent": "Asia",
-        "flag": "Iran.svg"
+        "flag": "./image/Iran.svg"
     },
     {
         "country": "Iraq",
         "continent": "Asia",
-        "flag": "Iraq.svg"
+        "flag": "./image/Iraq.svg"
     },
     {
         "country": "Ireland",
         "continent": "Europe",
-        "flag": "Ireland.svg"
+        "flag": "./image/Ireland.svg"
     },
     {
         "country": "Israel",
         "continent": "Asia",
-        "flag": "Israel.svg"
+        "flag": "./image/Israel.svg"
     },
     {
         "country": "Italy",
         "continent": "Europe",
-        "flag": "Italy.svg"
+        "flag": "./image/Italy.svg"
     },
     {
         "country": "Ivory Coast",
         "continent": "Africa",
-        "flag": "Ivory Coast.svg"
+        "flag": "./image/Ivory Coast.svg"
     },
     {
         "country": "Jamaica",
         "continent": "North America",
-        "flag": "Jamaica.svg"
+        "flag": "./image/Jamaica.svg"
     },
     {
         "country": "Japan",
         "continent": "Asia",
-        "flag": "Japan.svg"
+        "flag": "./image/Japan.svg"
     },
     {
         "country": "Jordan",
         "continent": "Asia",
-        "flag": "Jordan.svg"
+        "flag": "./image/Jordan.svg"
     },
     {
         "country": "Kazakhstan",
         "continent": "Asia",
-        "flag": "Kazakhstan.svg"
+        "flag": "./image/Kazakhstan.svg"
     },
     {
         "country": "Kenya",
         "continent": "Africa",
-        "flag": "Kenya.svg"
+        "flag": "./image/Kenya.svg"
     },
     {
         "country": "Kiribati",
         "continent": "Oceania",
-        "flag": "Kiribati.svg"
+        "flag": "./image/Kiribati.svg"
     },
     {
         "country": "Kuwait",
         "continent": "Asia",
-        "flag": "Kuwait.svg"
+        "flag": "./image/Kuwait.svg"
     },
     {
         "country": "Kyrgyzstan",
         "continent": "Asia",
-        "flag": "Kyrgyzstan.svg"
+        "flag": "./image/Kyrgyzstan.svg"
     },
     {
         "country": "Laos",
         "continent": "Asia",
-        "flag": "Laos.svg"
+        "flag": "./image/Laos.svg"
     },
     {
         "country": "Latvia",
         "continent": "Europe",
-        "flag": "Latvia.svg"
+        "flag": "./image/Latvia.svg"
     },
     {
         "country": "Lebanon",
         "continent": "Asia",
-        "flag": "Lebanon.svg"
+        "flag": "./image/Lebanon.svg"
     },
     {
         "country": "Lesotho",
         "continent": "Africa",
-        "flag": "Lesotho.svg"
+        "flag": "./image/Lesotho.svg"
     },
     {
         "country": "Liberia",
         "continent": "Africa",
-        "flag": "Liberia.svg"
+        "flag": "./image/Liberia.svg"
     },
     {
         "country": "Libyan Arab Jamahiriya",
         "continent": "Africa",
-        "flag": "Libyan Arab Jamahiriya.svg"
+        "flag": "./image/Libyan Arab Jamahiriya.svg"
     },
     {
         "country": "Liechtenstein",
         "continent": "Europe",
-        "flag": "Liechtenstein.svg"
+        "flag": "./image/Liechtenstein.svg"
     },
     {
         "country": "Lithuania",
         "continent": "Europe",
-        "flag": "Lithuania.svg"
+        "flag": "./image/Lithuania.svg"
     },
     {
         "country": "Luxembourg",
         "continent": "Europe",
-        "flag": "Luxembourg.svg"
+        "flag": "./image/Luxembourg.svg"
     },
     {
         "country": "North Macedonia",
         "continent": "Europe",
-        "flag": "North Macedonia.svg"
+        "flag": "./image/North Macedonia.svg"
     },
     {
         "country": "Madagascar",
         "continent": "Africa",
-        "flag": "Madagascar.svg"
+        "flag": "./image/Madagascar.svg"
     },
     {
         "country": "Malawi",
         "continent": "Africa",
-        "flag": "Malawi.svg"
+        "flag": "./image/Malawi.svg"
     },
     {
         "country": "Malaysia",
         "continent": "Asia",
-        "flag": "Malaysia.svg"
+        "flag": "./image/Malaysia.svg"
     },
     {
         "country": "Maldives",
         "continent": "Asia",
-        "flag": "Maldives.svg"
+        "flag": "./image/Maldives.svg"
     },
     {
         "country": "Mali",
         "continent": "Africa",
-        "flag": "Mali.svg"
+        "flag": "./image/Mali.svg"
     },
     {
         "country": "Malta",
         "continent": "Europe",
-        "flag": "Malta.svg"
+        "flag": "./image/Malta.svg"
     },
     {
         "country": "Marshall Islands",
         "continent": "Oceania",
-        "flag": "Marshall Islands.svg"
+        "flag": "./image/Marshall Islands.svg"
     },
     {
         "country": "Martinique",
         "continent": "North America",
-        "flag": "Martinique.svg"
+        "flag": "./image/Martinique.svg"
     },
     {
         "country": "Mauritania",
         "continent": "Africa",
-        "flag": "Mauritania.svg"
+        "flag": "./image/Mauritania.svg"
     },
     {
         "country": "Mauritius",
         "continent": "Africa",
-        "flag": "Mauritius.svg"
+        "flag": "./image/Mauritius.svg"
     },
     {
         "country": "Mayotte",
         "continent": "Africa",
-        "flag": "Mayotte.svg"
+        "flag": "./image/Mayotte.svg"
     },
     {
         "country": "Mexico",
         "continent": "North America",
-        "flag": "Mexico.svg"
+        "flag": "./image/Mexico.svg"
     },
     {
         "country": "Moldova",
         "continent": "Europe",
-        "flag": "Moldova.svg"
+        "flag": "./image/Moldova.svg"
     },
     {
         "country": "Monaco",
         "continent": "Europe",
-        "flag": "Monaco.svg"
+        "flag": "./image/Monaco.svg"
     },
     {
         "country": "Mongolia",
         "continent": "Asia",
-        "flag": "Mongolia.svg"
+        "flag": "./image/Mongolia.svg"
     },
     {
         "country": "Montserrat",
         "continent": "North America",
-        "flag": "Montserrat.svg"
+        "flag": "./image/Montserrat.svg"
     },
     {
         "country": "Morocco",
         "continent": "Africa",
-        "flag": "Morocco.svg"
+        "flag": "./image/Morocco.svg"
     },
     {
         "country": "Mozambique",
         "continent": "Africa",
-        "flag": "Mozambique.svg"
+        "flag": "./image/Mozambique.svg"
     },
     {
         "country": "Myanmar",
         "continent": "Asia",
-        "flag": "Myanmar.svg"
+        "flag": "./image/Myanmar.svg"
     },
     {
         "country": "Namibia",
         "continent": "Africa",
-        "flag": "Namibia.svg"
+        "flag": "./image/Namibia.svg"
     },
     {
         "country": "Nauru",
         "continent": "Oceania",
-        "flag": "Nauru.svg"
+        "flag": "./image/Nauru.svg"
     },
     {
         "country": "Nepal",
         "continent": "Asia",
-        "flag": "Nepal.svg"
+        "flag": "./image/Nepal.svg"
     },
     {
         "country": "Netherlands",
         "continent": "Europe",
-        "flag": "Netherlands.svg"
+        "flag": "./image/Netherlands.svg"
     },
     {
         "country": "Netherlands Antilles",
         "continent": "North America",
-        "flag": "Netherlands Antilles.svg"
+        "flag": "./image/Netherlands Antilles.svg"
     },
     {
         "country": "New Caledonia",
         "continent": "Oceania",
-        "flag": "New Caledonia.svg"
+        "flag": "./image/New Caledonia.svg"
     },
     {
         "country": "New Zealand",
         "continent": "Oceania",
-        "flag": "New Zealand.svg"
+        "flag": "./image/New Zealand.svg"
     },
     {
         "country": "Nicaragua",
         "continent": "North America",
-        "flag": "Nicaragua.svg"
+        "flag": "./image/Nicaragua.svg"
     },
     {
         "country": "Niger",
         "continent": "Africa",
-        "flag": "Niger.svg"
+        "flag": "./image/Niger.svg"
     },
     {
         "country": "Nigeria",
         "continent": "Africa",
-        "flag": "Nigeria.svg"
+        "flag": "./image/Nigeria.svg"
     },
     {
         "country": "Niue",
         "continent": "Oceania",
-        "flag": "Niue.svg"
+        "flag": "./image/Niue.svg"
     },
     {
         "country": "Norfolk Island",
         "continent": "Oceania",
-        "flag": "Norfolk Island.svg"
+        "flag": "./image/Norfolk Island.svg"
     },
     {
         "country": "North Korea",
         "continent": "Asia",
-        "flag": "North Korea.svg"
+        "flag": "./image/North Korea.svg"
     },
     {
         "country": "Northern Mariana Islands",
         "continent": "Oceania",
-        "flag": "Northern Mariana Islands.svg"
+        "flag": "./image/Northern Mariana Islands.svg"
     },
     {
         "country": "Norway",
         "continent": "Europe",
-        "flag": "Norway.svg"
+        "flag": "./image/Norway.svg"
     },
     {
         "country": "Oman",
         "continent": "Asia",
-        "flag": "Oman.svg"
+        "flag": "./image/Oman.svg"
     },
     {
         "country": "Pakistan",
         "continent": "Asia",
-        "flag": "Pakistan.svg"
+        "flag": "./image/Pakistan.svg"
     },
     {
         "country": "Palau",
         "continent": "Oceania",
-        "flag": "Palau.svg"
+        "flag": "./image/Palau.svg"
     },
     {
         "country": "Palestine",
         "continent": "Asia",
-        "flag": "Palestine.svg"
+        "flag": "./image/Palestine.svg"
     },
     {
         "country": "Panama",
         "continent": "North America",
-        "flag": "Panama.svg"
+        "flag": "./image/Panama.svg"
     },
     {
         "country": "Papua New Guinea",
         "continent": "Oceania",
-        "flag": "Papua New Guinea.svg"
+        "flag": "./image/Papua New Guinea.svg"
     },
     {
         "country": "Paraguay",
         "continent": "South America",
-        "flag": "Paraguay.svg"
+        "flag": "./image/Paraguay.svg"
     },
     {
         "country": "Peru",
         "continent": "South America",
-        "flag": "Peru.svg"
+        "flag": "./image/Peru.svg"
     },
     {
         "country": "Philippines",
         "continent": "Asia",
-        "flag": "Philippines.svg"
+        "flag": "./image/Philippines.svg"
     },
     {
         "country": "Poland",
         "continent": "Europe",
-        "flag": "Poland.svg"
+        "flag": "./image/Poland.svg"
     },
     {
         "country": "Portugal",
         "continent": "Europe",
-        "flag": "Portugal.svg"
+        "flag": "./image/Portugal.svg"
     },
     {
         "country": "Puerto Rico",
         "continent": "North America",
-        "flag": "Puerto Rico.svg"
+        "flag": "./image/Puerto Rico.svg"
     },
     {
         "country": "Qatar",
         "continent": "Asia",
-        "flag": "Qatar.svg"
+        "flag": "./image/Qatar.svg"
     },
     {
         "country": "Reunion",
         "continent": "Africa",
-        "flag": "Reunion.svg"
+        "flag": "./image/Reunion.svg"
     },
     {
         "country": "Romania",
         "continent": "Europe",
-        "flag": "Romania.svg"
+        "flag": "./image/Romania.svg"
     },
     {
         "country": "Russian Federation",
         "continent": "Europe",
-        "flag": "Russian Federation.svg"
+        "flag": "./image/Russian Federation.svg"
     },
     {
         "country": "Rwanda",
         "continent": "Africa",
-        "flag": "Rwanda.svg"
+        "flag": "./image/Rwanda.svg"
     },
     {
         "country": "Saint Helena",
         "continent": "Africa",
-        "flag": "Saint Helena.svg"
+        "flag": "./image/Saint Helena.svg"
     },
     {
         "country": "Saint Kitts and Nevis",
         "continent": "North America",
-        "flag": "Saint Kitts and Nevis.svg"
+        "flag": "./image/Saint Kitts and Nevis.svg"
     },
     {
         "country": "Saint Lucia",
         "continent": "North America",
-        "flag": "Saint Lucia.svg"
+        "flag": "./image/Saint Lucia.svg"
     },
     {
         "country": "Samoa",
         "continent": "Oceania",
-        "flag": "Samoa.svg"
+        "flag": "./image/Samoa.svg"
     },
     {
         "country": "San Marino",
         "continent": "Europe",
-        "flag": "San Marino.svg"
+        "flag": "./image/San Marino.svg"
     },
     {
         "country": "Sao Tome and Principe",
         "continent": "Africa",
-        "flag": "Sao Tome and Principe.svg"
+        "flag": "./image/Sao Tome and Principe.svg"
     },
     {
         "country": "Saudi Arabia",
         "continent": "Asia",
-        "flag": "Saudi Arabia.svg"
+        "flag": "./image/Saudi Arabia.svg"
     },
     {
         "country": "Scotland",
         "continent": "Europe",
-        "flag": "Scotland.svg"
+        "flag": "./image/Scotland.svg"
     },
     {
         "country": "Senegal",
         "continent": "Africa",
-        "flag": "Senegal.svg"
+        "flag": "./image/Senegal.svg"
     },
     {
         "country": "Serbia",
         "continent": "Europe",
-        "flag": "Serbia.svg"
+        "flag": "./image/Serbia.svg"
     },
     {
         "country": "Seychelles",
         "continent": "Africa",
-        "flag": "Seychelles.svg"
+        "flag": "./image/Seychelles.svg"
     },
     {
         "country": "Sierra Leone",
         "continent": "Africa",
-        "flag": "Sierra Leone.svg"
+        "flag": "./image/Sierra Leone.svg"
     },
     {
         "country": "Singapore",
         "continent": "Asia",
-        "flag": "Singapore.svg"
+        "flag": "./image/Singapore.svg"
     },
     {
         "country": "Slovakia",
         "continent": "Europe",
-        "flag": "Slovakia.svg"
+        "flag": "./image/Slovakia.svg"
     },
     {
         "country": "Slovenia",
         "continent": "Europe",
-        "flag": "Slovenia.svg"
+        "flag": "./image/Slovenia.svg"
     },
     {
         "country": "Solomon Islands",
         "continent": "Oceania",
-        "flag": "Solomon Islands.svg"
+        "flag": "./image/Solomon Islands.svg"
     },
     {
         "country": "Somalia",
         "continent": "Africa",
-        "flag": "Somalia.svg"
+        "flag": "./image/Somalia.svg"
     },
     {
         "country": "South Africa",
         "continent": "Africa",
-        "flag": "South Africa.svg"
+        "flag": "./image/South Africa.svg"
     },
     {
         "country": "South Korea",
         "continent": "Asia",
-        "flag": "South Korea.svg"
+        "flag": "./image/South Korea.svg"
     },
     {
         "country": "Spain",
         "continent": "Europe",
-        "flag": "Spain.svg"
+        "flag": "./image/Spain.svg"
     },
     {
         "country": "Sri Lanka",
         "continent": "Asia",
-        "flag": "Sri Lanka.svg"
+        "flag": "./image/Sri Lanka.svg"
     },
     {
         "country": "Sudan",
         "continent": "Africa",
-        "flag": "Sudan.svg"
+        "flag": "./image/Sudan.svg"
     },
     {
         "country": "Suriname",
         "continent": "South America",
-        "flag": "Suriname.svg"
+        "flag": "./image/Suriname.svg"
     },
     {
         "country": "Svalbard and Jan Mayen",
         "continent": "Europe",
-        "flag": "Svalbard and Jan Mayen.svg"
+        "flag": "./image/Svalbard and Jan Mayen.svg"
     },
     {
         "country": "Swaziland",
         "continent": "Africa",
-        "flag": "Swaziland.svg"
+        "flag": "./image/Swaziland.svg"
     },
     {
         "country": "Sweden",
         "continent": "Europe",
-        "flag": "Sweden.svg"
+        "flag": "./image/Sweden.svg"
     },
     {
         "country": "Switzerland",
         "continent": "Europe",
-        "flag": "Switzerland.svg"
+        "flag": "./image/Switzerland.svg"
     },
     {
         "country": "Syria",
         "continent": "Asia",
-        "flag": "Syria.svg"
+        "flag": "./image/Syria.svg"
     },
     {
         "country": "Tajikistan",
         "continent": "Asia",
-        "flag": "Tajikistan.svg"
+        "flag": "./image/Tajikistan.svg"
     },
     {
         "country": "Tanzania",
         "continent": "Africa",
-        "flag": "Tanzania.svg"
+        "flag": "./image/Tanzania.svg"
     },
     {
         "country": "Thailand",
         "continent": "Asia",
-        "flag": "Thailand.svg"
+        "flag": "./image/Thailand.svg"
     },
     {
         "country": "The Democratic Republic of Congo",
         "continent": "Africa",
-        "flag": "The Democratic Republic of Congo.svg"
+        "flag": "./image/The Democratic Republic of Congo.svg"
     },
     {
         "country": "Togo",
         "continent": "Africa",
-        "flag": "Togo.svg"
+        "flag": "./image/Togo.svg"
     },
     {
         "country": "Tokelau",
         "continent": "Oceania",
-        "flag": "Tokelau.svg"
+        "flag": "./image/Tokelau.svg"
     },
     {
         "country": "Tonga",
         "continent": "Oceania",
-        "flag": "Tonga.svg"
+        "flag": "./image/Tonga.svg"
     },
     {
         "country": "Trinidad and Tobago",
         "continent": "North America",
-        "flag": "Trinidad and Tobago.svg"
+        "flag": "./image/Trinidad and Tobago.svg"
     },
     {
         "country": "Tunisia",
         "continent": "Africa",
-        "flag": "Tunisia.svg"
+        "flag": "./image/Tunisia.svg"
     },
     {
         "country": "Turkey",
         "continent": "Asia",
-        "flag": "Turkey.svg"
+        "flag": "./image/Turkey.svg"
     },
     {
         "country": "Turkmenistan",
         "continent": "Asia",
-        "flag": "Turkmenistan.svg"
+        "flag": "./image/Turkmenistan.svg"
     },
     {
         "country": "Turks and Caicos Islands",
         "continent": "North America",
-        "flag": "Turks and Caicos Islands.svg"
+        "flag": "./image/Turks and Caicos Islands.svg"
     },
     {
         "country": "Tuvalu",
         "continent": "Oceania",
-        "flag": "Tuvalu.svg"
+        "flag": "./image/Tuvalu.svg"
     },
     {
         "country": "Uganda",
         "continent": "Africa",
-        "flag": "Uganda.svg"
+        "flag": "./image/Uganda.svg"
     },
     {
         "country": "Ukraine",
         "continent": "Europe",
-        "flag": "Ukraine.svg"
+        "flag": "./image/Ukraine.svg"
     },
     {
         "country": "United Arab Emirates",
         "continent": "Asia",
-        "flag": "United Arab Emirates.svg"
+        "flag": "./image/United Arab Emirates.svg"
     },
     {
         "country": "United Kingdom",
         "continent": "Europe",
-        "flag": "United Kingdom.svg"
+        "flag": "./image/United Kingdom.svg"
     },
     {
         "country": "United States",
         "continent": "North America",
-        "flag": "United States.svg"
+        "flag": "./image/United States.svg"
     },
     {
         "country": "United States Minor Outlying Islands",
         "continent": "Oceania",
-        "flag": "United States Minor Outlying Islands.svg"
+        "flag": "./image/United States Minor Outlying Islands.svg"
     },
     {
         "country": "Uruguay",
         "continent": "South America",
-        "flag": "Uruguay.svg"
+        "flag": "./image/Uruguay.svg"
     },
     {
         "country": "Uzbekistan",
         "continent": "Asia",
-        "flag": "Uzbekistan.svg"
+        "flag": "./image/Uzbekistan.svg"
     },
     {
         "country": "Vanuatu",
         "continent": "Oceania",
-        "flag": "Vanuatu.svg"
+        "flag": "./image/Vanuatu.svg"
     },
     {
         "country": "Venezuela",
         "continent": "South America",
-        "flag": "Venezuela.svg"
+        "flag": "./image/Venezuela.svg"
     },
     {
         "country": "Vietnam",
         "continent": "Asia",
-        "flag": "Vietnam.svg"
+        "flag": "./image/Vietnam.svg"
     },
     {
         "country": "Wales",
         "continent": "Europe",
-        "flag": "Wales.svg"
+        "flag": "./image/Wales.svg"
     },
     {
         "country": "Wallis and Futuna",
         "continent": "Oceania",
-        "flag": "Wallis and Futuna.svg"
+        "flag": "./image/Wallis and Futuna.svg"
     },
     {
         "country": "Western Sahara",
         "continent": "Africa",
-        "flag": "Western Sahara.svg"
+        "flag": "./image/Western Sahara.svg"
     },
     {
         "country": "Yemen",
         "continent": "Asia",
-        "flag": "Yemen.svg"
+        "flag": "./image/Yemen.svg"
     },
     {
         "country": "Zambia",
         "continent": "Africa",
-        "flag": "Zambia.svg"
+        "flag": "./image/Zambia.svg"
     },
     {
         "country": "Zimbabwe",
         "continent": "Africa",
-        "flag": "Zimbabwe.svg"
+        "flag": "./image/Zimbabwe.svg"
     }
 ]

@@ -16,7 +16,7 @@ for (let x of cByContinent){
      dat={
                 country:x.country,
                 continent:x.continent,
-                flag:`${x.country}.svg`
+                flag:`./image/${x.country}.svg`
    }
    d.push(dat)  
    }
