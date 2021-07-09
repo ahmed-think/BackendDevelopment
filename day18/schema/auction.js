@@ -2,8 +2,7 @@ const mongoose=require('mongoose')
 
 
 const Autionmodel= new mongoose.Schema({
-    name:String,
-    seller:String,
+    sellername:String,
     status:{type:String, default:false},
     items:[{
         it_name:String,
